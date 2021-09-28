@@ -1,10 +1,6 @@
-
-*{
-  font-family:'Courier New', Courier, monospace
-  }
-
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -19,7 +15,7 @@
 }
 
 .App-header {
-  background-image: linear-gradient(to right , rgb(189, 65, 65),#dda43a);
+  background-image: linear-gradient(to right , rgb(65, 158, 189),#282c34);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,93 +37,23 @@
     transform: rotate(360deg);
   }
 }
-
 .divstyle{
-  background-image: linear-gradient(to right ,#7e0404, #dda43a);
+  background-image: linear-gradient(to right ,#536ca0, rgb(65, 158, 189));
   border-radius: 12px;
   padding: 7px;
   margin-bottom:14px ;
   color: antiquewhite;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-.divstyle:hover{
-  background-image: linear-gradient(to right ,#7b3a3a, #d8b36f);
-  border-radius: 12px;
-  padding: 7px;
-  margin-bottom:14px ;
-  color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.activediv{
-  background-image: linear-gradient(to right ,#7b3a3a, #d8b36f);
-  border-radius: 12px;
-  padding: 7px;
-  margin-bottom:14px ;
-  color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-
 .divstyle1{
-  background-color: rgb(17, 1, 1);
+  background-color: rgb(7, 39, 87);
   border-radius: 12px;
   padding: 20px;
   color: antiquewhite;
-  
 }
-
-.divstyle2{
-  background-color: #080d4f; 
+.edit-color{
+  background-color: rgba(156, 201, 214, 0.645);
   border-radius: 12px;
-  padding: 7px;
-  margin-bottom:14px ;
-  color: antiquewhite;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-.divstyle3{
-  background-color: maroon;
-  border-radius: 12px;
-  padding: 7px;
-  margin-bottom:14px ;
-  color: antiquewhite;
-  
-  
-}
-.but{
-  background-color: white; 
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 500;
-  cursor:pointer;
-}
-.but:hover{
-  background-color: #0d6efd; 
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 10px;
-  font-weight: 500;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  cursor:pointer;
-}
-.but:active{
-  background-color: #0d6efd; 
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 10px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 500;
-  cursor:pointer;
-}
-#radio{
-  cursor:pointer;
-  width: 14px;
-  height: 15px;
-  
+  padding: 8px;
+  font-weight: 600;
+  color: rgb(238, 250, 133);
 }
